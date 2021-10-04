@@ -4,7 +4,7 @@
     <Product>{Placeholder}</Product>-
     <Authors>Swiss Life authors and contributors</Authors>
     <Company>Swiss Life</Company>
-    <Copyright>Copyright © 2019 Swiss Life</Copyright>
+    <Copyright>Copyright © $([System.DateTime]::Now.Year) $(Company)</Copyright>
     <PackageLicenseUrl>https://github.com/SwissLife-OSS/{Placeholder}/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/SwissLife-OSS/{Placeholder}</PackageProjectUrl>
     <PackageReleaseNotes>Release notes: https://github.com/SwissLife-OSS/{Placeholder}/releases/$(Version)</PackageReleaseNotes>
